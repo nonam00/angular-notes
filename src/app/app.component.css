@@ -1,0 +1,12 @@
+h2 {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}

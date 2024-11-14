@@ -1,0 +1,47 @@
+.task-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+  background-color: rgb(240, 240, 240);
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 1.2rem;
+  transition: transform 0.5s;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+}
+
+.task-header {
+  color: cornflowerblue;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 0 0.4rem 0.6rem 0.4rem;
+  border-radius: 3px;
+}
+
+.task-header > h3 {
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-description {
+  color: black;
+  height: 75%;
+  width: 100%;
+  overflow-y: scroll;
+  text-decoration: none;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  justify-content: left;
+  padding: 0;
+}
